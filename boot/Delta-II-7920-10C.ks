@@ -2,7 +2,7 @@ GLOBAL vehicle IS LIST (
     LEXICON(
         "name",  "Delta XLT",
         "massTotal", 109993,
-        "massDry", 7407,
+        "massDry", 7007,
         "engines", LIST(
                 LEXICON(
                                 "isp", 255,
