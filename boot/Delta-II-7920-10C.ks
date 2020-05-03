@@ -1,8 +1,8 @@
 GLOBAL vehicle IS LIST (
     LEXICON(
         "name",  "Delta XLT",
-        "massTotal", 109993,
-        "massDry", 7007,
+        "massTotal", 110393,
+        "massDry", 7407,
         "shutdownRequired", TRUE,
         "engines", LIST(
                 LEXICON(
