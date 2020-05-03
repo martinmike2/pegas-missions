@@ -55,7 +55,7 @@ GLOBAL vehicle IS LIST (
 GLOBAL sequence IS LIST(
     LEXICON("time", -3.7, "type", "stage", "message", "Ignition"),
     LEXICON("time", 0, "type", "stage", "message", "Liftoff!"),
-    LEXICON("time", 95, "type", "stage", "message", "SRB Jettison"),
+    LEXICON("time", 105, "type", "stage", "message", "SRB Jettison"),
     LEXICON("time", 110, "type","stage", "message", "Fairing Jettison"),
     LEXICON("time", 274, "type", "roll", "angle", 0)
 ).
@@ -69,4 +69,4 @@ GLOBAL controls IS LEXICON(
 SET STEERINGMANAGER:ROLLTS TO 10.
 SWITCH TO 0.
 CLEARSCREEN.
-PRINT "Loaded boot file: Delta-II-7920-10C".
+PRINT "Loaded boot file: Titan IV".
