@@ -1,8 +1,8 @@
 GLOBAL vehicle IS LIST (
     LEXICON(
         "name",  "Delta XLT",
-        "massTotal", 262085,
-        "massDry", 14046,
+        "massTotal", 109993,
+        "massDry", 14030,
         "engines", LIST(
                 LEXICON(
                                 "isp", 255,
@@ -30,7 +30,7 @@ GLOBAL vehicle IS LIST (
                 "waitBeforeJettison", 1,
                 "ullage", "srb",
                 "ullageBurnDuration", 10,
-                "waitBeforeIgnition", 1,
+                "waitBeforeIgnition", 10,
                 "postUllageBurn", 2
         )
     )
